@@ -1,0 +1,28 @@
+name=['Joan','Jon','Jelly','Cindy','Julie']
+ name[o] = "Jude"
+print(name)
+# add an item
+name.append("John")
+print(name)
+name[2]="Bethel"
+index_to_remove = 4
+del name[index_to_remove]
+print(name)
+print(name[-1])
+# no 7
+fruits=[ 'mango','orange','apple','chill','berry','tomato','mellon']
+print(fruits[2:4])
+# list of countries
+countries=['uganda', 'kenya','Tanzania','Rwanda]
+countries= countries.copy()
+for x in countries:
+  print(x)
+  animals=['dogs','cat','cow','rabbit','rat']
+  animals.sort()
+  print(animals)
+  animals.sort(reverse=True)
+  a_animals = [x for x in animals if x.startswith('a')]
+
+print("Animal names starting with 'a':")
+for x in a_animals:
+    print(x)
